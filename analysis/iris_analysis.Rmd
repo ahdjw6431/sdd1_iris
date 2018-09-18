@@ -67,11 +67,11 @@ La différence morphologique des pétales permet d'une part d'isoler à nouveau 
 
 # Discussion
 
-*I. setosa* est morphologiquement distincte des deux autres espèces comme le démontre Anderson [ -@Anderson1936]. Cependant, les différences morphologique entre *I.versoicolor* et *I. virginica* est plus fiable. 
+*I. setosa* est morphologiquement distincte des deux autres espèces comme le démontre Anderson [ -@Anderson1936]. Cependant, les différences morphologiques entre *I.versoicolor* et *I. virginica* sont plus fiables. 
 
 # Conclusion
 
-la biométrie des pétales et des sépales sont de bonnes variables afin de différencier *I. setosa* de *I. versicolor* et *I. virginica*. 
+La biométrie des pétales et des sépales sont de bonnes variables afin de différencier *I. setosa* de *I. versicolor* et *I. virginica*. 
 
 # Bibliographie
 
