@@ -1,27 +1,22 @@
-# Analyse de trois especes d'iris prélevé en 1935 en Gaspésie par Edgar Anderson
-## Engels Guyliann & Grosjean Philippe
+# Exemple de structure de projet - jeu de données iris
+
+Engels Guyliann & Grosjean Philippe
+
 
 ## Introduction
 
-Ce projet est un exemple de structuration d'un projet et d'un rapport d'analyse respectant les règles liées à l'écriture scientifiques. Il se basent sur les données collectées par Edgar Anderson en 1935 sur trois espèces d'Iris dans la péninsule de Gaspésie.
-
-Pour obtenir plus de renseignements sur ce jeu de données, exécutez l'instruction suivante
+Ceci est un exemple de structuration d'un projet et d'un rapport d'analyse dans le cadre du cours de science des données biologiques à l'UMONS. Il se base sur les données collectées par Edgar Anderson en 1935 sur trois espèces d'Iris dans la péninsule de Gaspésie au Canada. Pour obtenir plus de renseignements sur ce jeu de données, exécutez l'instruction suivante dans R :
 
 ```
-about("iris")
+?iris
 ```
-
-Ce projet est écrit afin d'illustrer le cours de sciences des données biologiques à l'UMONS.
 
 ## Contenu
 
-Il comprend dans
+Outre le fichier `README.md` qui apparait en [première page du dépôt](https://github.com/BioDataScience-Course/sdd1_iris), et le fichier `.Rproj`du projet RStudio, vous travaillerez dans deux sous-dossiers :
 
-- le dossier `R` 
-    + un script `first_analysis_iris.R` relatif à la découverte des données liée au [module 2](http://biodatascience-course.sciviews.org/sdd-umons/visu1.html) via le nuage de point.
+- le sous-dossier `R` contient le code R 
+    + un script `iris.R` utilisé dans le [module 2 du cours](http://biodatascience-course.sciviews.org/sdd-umons/visu1.html).
 
-- le dossier `analysis`
-    + un rapport d'analyse `iris_analysis.Rmd` relatif à la description graphiques des données  liée au [module 2](http://biodatascience-course.sciviews.org/sdd-umons/visu1.html) via l'intégration des graphiques dans un rapport RMarkdown.
-
-
-
+- le sous-dossier `analysis` contient les rapports, présentations, ...
+    + un rapport d'analyse `iris.Rmd` illustrant l'intégration de graphiques en nuage de points dans un rapport R Markdown.
