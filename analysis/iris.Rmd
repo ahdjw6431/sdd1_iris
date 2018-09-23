@@ -24,18 +24,7 @@ L'étude porte sur les variations morphologiques des fleurs de trois espèces d'
 
 # Matériel et méthodes
 
-Edgar Anderson [-@Anderson1935] a récolté les trois espèces d'iris en Gaspésie (Québec, Canada) en 1935 au moment de la floraison. La péninsule de Gaspésie est entourée par l'estuaire du fleuve Saint-Laurent, le golfe du Saint-Laurent et la baie des chaleurs (carte réalisée avec le package ggmap [@ggmap2013]).
-
-```{r}
-#48° 40′ 00″ nord, 65° 40′ 00″ ouest
-# PhG: this does NOT work! Because you need to get an autorization from Google API
-# Not a good example for reproducibility! I propose to eliminate!!!
-#map <- ggmap::get_googlemap(center = c(lon = -65.833333, lat = 48.666667 ),
-#  zoom = 3, maptype = "satellite")
-
-#ggmap::ggmap(map) + 
-#  geom_point(mapping = aes(x = -65.833333, y  = 48.666667), color = "red")
-```
+Edgar Anderson [-@Anderson1935] a récolté les trois espèces d'iris en Gaspésie (Québec, Canada) en 1935 au moment de la floraison. La péninsule de Gaspésie est entourée par l'estuaire du fleuve Saint-Laurent, le golfe du Saint-Laurent et la baie des chaleurs.
 
 Cinquante plants par espèces sont prélevés afin d'étudier la biométrie de leurs fleurs. La longueur et la largeur des pétales et sépales sont mesurées (en centimètre).
 

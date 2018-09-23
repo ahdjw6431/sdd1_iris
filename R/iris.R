@@ -11,7 +11,7 @@ SciViews::R
 
 
 # importation -------------------------------------------------------------
-iris <- read(package = "datasets", "iris", lang = "fr")
+iris <- read("iris", package = "datasets", lang = "fr")
 
 View(iris)
 .?iris
@@ -19,7 +19,7 @@ View(iris)
 
 # graphiques --------------------------------------------------------------
 
-## sepal_length vs sepal_width
+# sepal_length vs sepal_width
 chart(iris, sepal_length ~ sepal_width) +
   geom_point()
 
@@ -34,10 +34,3 @@ chart(iris, petal_length ~ petal_width %col=% species) +
 # sepal_length vs petal_length
 chart(iris, sepal_length ~ petal_length %col=% species) +
   geom_point()
-
-
-# graphique alternatif ----------------------------------------------------
-chart(iris, petal_length ~ petal_width %col=% species | species) +
-  geom_point(data = select(iris, -species),  color = "grey") +
-  geom_point( show.legend = FALSE) +
-  scale_color_viridis_d() # optimisation des couleurs avec viridis
